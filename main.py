@@ -66,13 +66,14 @@ def main():
     plt.grid(True)
     plt.legend()
     plt.tight_layout()
+    plt.savefig("./plot.png") 
+    plt.close()
 
     # for local environment
     #plt.show()
 
     # for NoteBook
-    plt.savefig("plot.png") 
-    plt.close()
+
     from IPython.display import Image, display
     display(Image("plot.png"))
 
