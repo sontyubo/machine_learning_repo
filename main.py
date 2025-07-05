@@ -66,7 +66,9 @@ def main():
     plt.grid(True)
     plt.legend()
     plt.tight_layout()
-    plt.show()
+
+    # for local environment
+    #plt.show()
 
     # for NoteBook
     from IPython.display import Image
