@@ -72,6 +72,7 @@ def main():
 
     # for NoteBook
     plt.savefig("plot.png") 
+    plt.close()
     from IPython.display import Image, display
     display(Image("plot.png"))
 
