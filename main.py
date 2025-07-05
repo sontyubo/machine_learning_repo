@@ -68,6 +68,10 @@ def main():
     plt.tight_layout()
     plt.show()
 
+    # for NoteBook
+    from IPython.display import Image
+    Image("plot.png")
+
 
 if __name__ == "__main__":
     main()
