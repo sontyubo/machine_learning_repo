@@ -1,3 +1,13 @@
+# To start
+- `uv sync`
+- `uv run python main.py`
+
+# Requirement
+- Python 3.11
+- dependencies is written in pyproject.toml
+
+---
+
 # 目的
 - ワインに関するパラメータを学習し、ワインについて分類する
 
