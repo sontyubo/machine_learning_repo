@@ -71,6 +71,7 @@ def main():
     #plt.show()
 
     # for NoteBook
+    plt.savefig("plot.png") 
     from IPython.display import Image, display
     display(Image("plot.png"))
 
