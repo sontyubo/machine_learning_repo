@@ -71,8 +71,8 @@ def main():
     #plt.show()
 
     # for NoteBook
-    from IPython.display import Image
-    Image("plot.png")
+    from IPython.display import Image, display
+    display(Image("plot.png"))
 
 
 if __name__ == "__main__":
